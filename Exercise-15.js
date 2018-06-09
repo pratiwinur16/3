@@ -12,7 +12,7 @@ function groupAnimals(animals) {
     resultArr[0].push(animals[0])
     
     for(var i = 1 ; i < animals.length ; i++){ //lakukan pengulangan sepanjang animals length 
-        if(animals[i][0] === resultArr[a][0][0]){ // jika animals yang ke i indeks yg ke 0 samadengan arrat a indeks 0 dan 0 maka 
+        if(animals[i][0] === resultArr[a][0][0]){ // jika animals yang ke i indeks yg ke 0 samadengan array a indeks 0 dan 0 maka 
             resultArr[a].push(animals[i]) // push ke result array 
         }else{
             a++; // increment array jika tidak 
